@@ -110,5 +110,5 @@ HARData_mean$signal<-sub("BodyBody","Body",HARData_mean$signal)
 # convert signal values to lower case
 HARData_mean$signal<-tolower(HARData_mean$signal)
 
-#write to .csv files
-write.csv(HARData_mean,"HARDataMean.csv",row.names = FALSE)
+#write to .txt files
+write.table(HARData_mean,"HARDataMean.txt",row.names = FALSE)

@@ -115,7 +115,7 @@ Accordingly, the measure column is separated into columns (**domain**, **signal*
 8. Spread the **method** column into **mean** and **std**, where column **value** is used to populate the cells in **mean** and **std**. 
 9. Process the typos. **NOTE** that int the "UCI HAR Dataset\\feature.txt" file, the features "fBodyBodyAccJerkMag-mean()","fBodyBodyAccJerkMag-std()", "fBodyBodyGyroMag-mean()", "fBodyBodyGyroMag-std()", "fBodyBodyGyroJerkMag-mean()", "fBodyBodyGyroJerkMag-std()" should be "fBodyAccJerkMag-mean()","fBodyAccJerkMag-std()", "fBodyGyroMag-mean()", "fBodyGyroMag-std()", "fBodyGyroJerkMag-mean()", "fBodyGyroJerkMag-std()".  
 10. COnvet values in the column **signal** be lower case. At this point, data set **HARData_mean**(**subject**, **activity**, **signal**, **domain**, **mean**, **std**) is established.
-11. Write **HARData_mean** into file ".\\HARDataMean.csv".
+11. Write **HARData_mean** into file ".\\HARDataMean.txt".
                 
 ## Reference
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012

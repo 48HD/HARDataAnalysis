@@ -51,9 +51,9 @@ The mean and standard deviation of the above signals in each experiment trial ar
 ### Datasets
 There is one data set included in the fold.
 
-1.'HARDataMean.csv':  containing the mean values of mean and stand deviation for each singal in the corresponding domain grouped by subjects, activity.
+1.'HARDataMean.txt':  containing the mean values of mean and stand deviation for each singal in the corresponding domain grouped by subjects, activity.
 
-## HARDataMean.csv
+## HARDataMean.txt
 ###Variables
 There are 6 variables in this dataset. 
 
